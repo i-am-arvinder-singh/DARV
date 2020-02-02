@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styleaa.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 40px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: #a34a28;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+  background-image: linear-gradient(
+      to right bottom,
+      #d65a31,
+      #ffc5a1);
+  border-radius:30px;
+
+
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body style="background-color: #a34a28">
+
+<div style="text-align:center">
+  <h1 id="headi">KNOW ABOUT VACCINES</h1>
+  <p style="color: white">Tap on the boxes below:</p>
+</div>
+
+<!-- Three columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background:#deb881;">
+   BCG
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#f6cd90;">
+    Polio
+  </div>
+  <div class="column" onclick="openTab('b3');" style="background:#deb881;">
+   Hepatitis B
+  </div>
+  <div class="column" onclick="openTab('b4');" style="background:#f6cd90;">
+   DTaP/DTP
+  </div>
+   <div class="column" onclick="openTab('b5');" style="background:#deb881;">
+    Influenzae
+  </div>
+  <div class="column" onclick="openTab('b6');" style="background:#f6cd90;">
+    Rotavirus
+  </div>
+  <div class="column" onclick="openTab('b7');" style="background:#deb881;">
+   MMR
+  </div>
+  <div class="column" onclick="openTab('b8');" style="background:#f6cd90;">
+  Varicella
+  </div>
+  <div class="column" onclick="openTab('b9');" style="background:#deb881;">
+    Hepatitis A
+  </div>
+</div>
+<br>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>BCG</h2>
+  <p>Bacillus Calmette-Guérin (BCG) is the live attenuated vaccine form of Mycobacterium bovis used to prevent tuberculosis and other mycobacterial infections. The vaccine was developed by Calmette and Guérin and was first administered to human beings in 1921. BCG is the only vaccine against tuberculosis. It is the most widely administered vaccine and usually a part of the routine newborn immunization schedule.  BCG vaccine also offers protection against non-tuberculous mycobacteria infection like leprosy and Buruli ulcer. It is also used in the treatment of superficial carcinoma of the bladder.</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>POLIO</h2>
+      <p>Poliomyelitis is a highly contagious disease caused by a virus (the poliovirus), which invades the nervous system and can lead to irreversible paralysis in just a few hours. This disease has been preventable since the 1960s thanks to effective vaccines. A global program, aiming to eradicate the disease through vaccination, was launched under the supervision of the WHO.</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Hepatitis B</h2>
+      <p>Hepatitis B is a liver disease that can cause mild illness lasting a few weeks, or it can lead to a serious, lifelong illness. Hepatitis B is spread when blood, semen, or other body fluid infected with the hepatitis B virus enters the body of a person who is not infected. Most people who are vaccinated with hepatitis B vaccine are immune for life. Infants should get their first dose of hepatitis B vaccine at birth and will usually complete the series at 6 months of age (sometimes it will take longer than 6 months to complete the series).</p>
+</div>
+
+
+<div id="b4" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+ <h2>DTaP/DTP</h2>
+      <p>DTaP vaccine can help protect your child from diphtheria, tetanus, and pertussis.
+• DIPHTHERIA (D) can cause breathing problems, paralysis, and heart failure. Before vaccines, diphtheria killed tens of thousands of children every year in the United States.
+• TETANUS (T) causes painful tightening of the muscles. It can cause “locking” of the jaw so you cannot open your mouth or swallow. About 1 person out of 5 who get tetanus dies.
+• PERTUSSIS (aP), also known as Whooping Cough, causes coughing spells so bad that it is hard for infants and children to eat, drink, or breathe. It can cause pneumonia, seizures, brain damage, or death.
+</p>
+</div>
+
+<div id="b5" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Influenzae</h2>
+      <p>Haemophilus influenzae, a type of bacteria, can cause many different kinds of infections. These infections range from mild ear infections to severe diseases, like bloodstream infections.The most common types of invasive disease caused by H. influenzae are:
+
+Pneumonia* (lung infection)
+Bacteremia (bloodstream infection)
+Meningitis (infection of the tissue covering of the brain and spinal cord)
+Epiglotittis (swelling in the throat)
+Cellulitis (skin infection)
+Infectious arthritis (inflammation of the joint)</p>
+</div>
+
+<div id="b6" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Rotavirus</h2>
+      <p>Rotavirus is a virus that infects the bowels, causing a severe inflammation of the stomach and bowels (known as gastroenteritis). Rotavirus is the most common cause of severe diarrhea among infants and children throughout the world and causes the death of about 500,000 children worldwide annually. The name rotavirus comes from the characteristic wheel-like appearance of the virus when viewed by electron microscopy (the name rotavirus comes from the Latin rota, meaning "wheel").</p>
+</div>
+
+<div id="b7" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>MMR</h2>
+      <p>MMR vaccine can prevent measles, mumps, and rubella. 
+Children need 2 doses of MMR vaccine, usually:
+• First dose at 12 through 15 months of age
+• Second dose at 4 through 6 years of age
+</p>
+</div>
+
+
+<div id="b8" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Varicella</h2>
+      <p>Varicella vaccine can prevent chickenpox.
+
+Chickenpox can cause an itchy rash that usually lasts about a week.  It can also cause fever, tiredness, loss of appetite, and headache.  It can lead to skin infections, pneumonia, inflammation of the blood vessels, and swelling of the brain and/or spinal cord covering, and infections of the bloodstream, bone, or joints. Some people who get chickenpox get a painful rash called shingles (also known as herpes zoster) years later.</p>
+</div>
+
+
+<div id="b9" class="containerTab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Hepatitis A</h2>
+      <p>Hepatitis A is a liver disease caused by the hepatitis A virus (HAV). Hepatitis A can affect anyone. Vaccines are available for long-term prevention of HAV infection in persons 1 year of age and older. Good personal hygiene and proper sanitation can also help prevent the spread of hepatitis A.</p>
+</div>
+
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</body>
+</html> 
